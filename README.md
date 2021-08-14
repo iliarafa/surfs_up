@@ -18,13 +18,22 @@ The most important result of our analysis is the standard deviation of daily tem
 
 ![](images/tobs_compare.png)
 
-Zooming in into the numbers we see that the variation in temperatures is indeed insignificant compared to other regions of the world. With a year-round low of around 55 degrees, highs around 85 and means slightly over 71 degrees the surf and ice-cream business is fail safe. Another fact that stands out is the increase in average tempertature in the third and third quartile for both June and December. This translates to an increase of temperature in the most recent years. Since aveage temperatures have risen, winters are milder and this further increases the chances of this business operating year round. But let us take a look at another major factor. Rainfall. 
+Zooming in into the numbers we see that the variation in temperatures is rather mild. With a year-round low of around 55 degrees, highs around 85 and means slightly over 71 degrees the surf and ice-cream business is fail safe. December is of course a colder month but with a standard deviation at 3.25 and 3.75, one might cocnlude there is mimimal temporal variability in recorded temperatures. A surf business could definitely operate year round based on the temperature. 
+
+Let's examine though another significant variable which is rainfall. 
 
 ## Precipitation stats
 
 ![](images/prec_compare.png)
 
-Looking at precipitation averages we see low amounts of rainfall. The first quartile equals the minimum precipitation for both June and December at 0.00
-In the second and third quartiles rainfall is almost at the same levels for both months. However, standard deviation for December is significantly higher than June at 0.54 compared to 0.34 . This may indicate less rainy days with more severe rainfall for the winter. 
+Looking at precipitation averages we see double amounts of rainfall in December compared to June. What is also almost double in December is standard deviation at 0.54 compared to 0.34 in June. These values indicate very high and high temporal variability of rainfall respectively, similar to the one of the Mediterranean climate. Especially for December rainfall will vary +/- 54% from its long term average. 
+
+Lastly let's take a look at the specifics of Stations recording our data. 
+
+## Station specifics
+
+Looking at the Stations data we may locate favorable locations to set up shop. For example, we see that Waikiki station recorded both the highest average temperatures in December and the lowest precipitation amounts for the same period of time.
 
 ![](images/stations_compare.png)
+
+On the opposite side, we see Manoa Lyon Arbo which scores both the lowest average temperatures and highest precipitation amount for both June and December. Surely an area to avoid. 
